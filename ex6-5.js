@@ -6,5 +6,5 @@ function taro({
     who='太郎';
 }
 fu；ction taro(){
-  who='花子'；
-  ｝
+  who='花子';
+}
