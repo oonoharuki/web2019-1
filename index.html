@@ -10,13 +10,27 @@
 <script src="ex06-8.js"></script>
 <script src="ex6-9.js"></script>
 <script src="ex06-10.js"></script>
+<script src="ex07-1.js"></script>
 </head>
 <body>
+<!--文字の大きさの練習-->
+<h1>Hello World</h1>
+<h2>Hello World</h2>
+<h3>Hello World</h3>
+<table>
+<thead><tr>
+<th class="important">長所</th>
+<th>どこで食べるか</th>
+<th>短所</th>
+</tr></thead>
 <!--
     <h1>イベントハンドラの練習</h1>
     <input type="button""value"="ここをクリック"
     onclick="alert("Hello,Aerts!");">
 -->
+<h1>テキスト入力の練習</h1>
+<input type="button"value="あいさつ"onclick="sayhello71();">
+<p>誰?<input type="text"id="who"></P>
 <input type="button"value="ここをクリック"
 onclick="sayhello();">
 
@@ -43,19 +57,21 @@ onclick="sayhello();">
 <input type="button" value="あいさつ" onclick="sayhello68();">
 <input type="button" value="太郎" onclick="taro();">
 <input type="button" value="花子" onclick="hanako();">
-<p id="who">world</p>
+<p id="who68">world</p>
 
 <h1>JavaScriptによるページの変更69</h1>
 <div id="txt1">
 <input type="button" value="テキストの変更" onclick="txtchange1();">
 城西大学</div>
 
-<div id="imge1">
+<div id="image1">
 <input type="button" value="画像の変更" onclick="imgchange1();">
 <img src='./image/josai.png' id="logo" alt="josailogo"></div>
-<form name="timer">
-<input type="button" value="スタート"onclick="startfnc()">
+<h1>    タイマーイベントによる実行1 6-10</h1>
+  <form name="timer">                        startfnc
+<input type="button" value="スタート"onclick="hyoji()">
 <br>
 <input type="text" name="moji" size="30" value=""></form>
+<form><input type="button" value="Timer" onclick="setTimeout('mes()',3000)"></form>
 </body>
 </html>
