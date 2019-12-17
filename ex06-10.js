@@ -16,4 +16,5 @@ if(cnt<11){
  function mes(){
      alert("3秒経ちました！");
  }            
+ dkjhff
  
