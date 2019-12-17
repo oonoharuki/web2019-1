@@ -3,3 +3,4 @@ fubction add(){
     var y =document.getElementById('input2').value;
     alert(x+y);
 }
+}
