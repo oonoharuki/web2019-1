@@ -17,11 +17,5 @@ function startfnc(){
     setInterval ("hyoji()",1000);}
 
 function mes(){
-alert("3秒経ちました!");
-    }
-
-function hyoji(){
-    //表示する文字
-    var str = "1文字ずつ表示します。";
+alert("3秒経ちました！");
 }
-
