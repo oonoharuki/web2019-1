@@ -17,7 +17,7 @@ function startfnc(){
     setInterval ("hyoji()",1000);}
 
 function mes(){
-        alert("3秒経ちました!");
+alert("3秒経ちました!");
     }
 
 function hyoji(){
