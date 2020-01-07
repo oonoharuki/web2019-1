@@ -1,7 +1,7 @@
 <form name="timer">
-<input type="button"value="スタート"onclick="hyoji()">
-<br>
-<input type="text"name="moji"size="30"value="">
+<input type="button"value="スタート"onclick="hyoji()"></input>
+<br></br>
+<input type="text"name="moji"size="30"value=""></input>
 </form>
 function hyouji(){
     //表示する文字
